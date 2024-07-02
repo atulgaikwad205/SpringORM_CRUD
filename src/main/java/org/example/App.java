@@ -19,18 +19,25 @@ public class App
 
         StudentDao std = context.getBean("studentDao" , StudentDao.class);
 
-       // std.insert(new Student(222,"Ayush","UP"));
+        //insert method call
+        std.insert(new Student(222,"Ayush","UP"));
 
+        // getAllStudent method call
          List<Student> stdlist =  std.getAllStudent();
 
+         //printed list of student 
          for (Student  s : stdlist){
              System.out.println(s.getId()+s.getName()+s.getCity());
          }
+
+         // get single student method call
          Student s =  std.getStudent(111);
          System.out.println(s.getId()+s.getName()+s.getCity());
 
+         // delete studnet method call
          std.deleteStudent(222);
 
+         //update student method call
          std.updateStudent(new Student(111,"Pooja","Kolhapur"));
 
         System.out.println("Done..");
