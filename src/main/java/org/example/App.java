@@ -38,7 +38,7 @@ public class App
          std.deleteStudent(111);
 
          //update student method callgit 
-         std.updateStudent(new Student(111,"Pooja","Kolhapur"));
+         std.updateStudent(new Student(111,"Ganesh","Mumbai"));
 
         System.out.println("Done..");
     }
