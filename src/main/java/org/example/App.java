@@ -37,7 +37,7 @@ public class App
          // delete studnet method call
          std.deleteStudent(111);
 
-         //update student method call
+         //update student method callgit 
          std.updateStudent(new Student(111,"Pooja","Kolhapur"));
 
         System.out.println("Done..");
