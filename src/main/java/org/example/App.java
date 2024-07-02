@@ -20,7 +20,7 @@ public class App
         StudentDao std = context.getBean("studentDao" , StudentDao.class);
 
         //insert method call
-        std.insert(new Student(111,"Ayush","UP"));
+        std.insert(new Student(111,"Atul","Pune"));
 
         // getAllStudent method call
          List<Student> stdlist =  std.getAllStudent();
