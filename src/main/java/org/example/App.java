@@ -83,7 +83,7 @@ public class App
 
                     case 6:
                         go = false;
-                        System.out.println("Thanks For Using Our App..!");
+                        System.out.println("Thanks For Using Our App....!");
                         break;
                 }
             } catch (Exception e) {
